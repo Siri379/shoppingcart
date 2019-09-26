@@ -42,7 +42,7 @@ public class OrderController {
 	/**
 	 * This method is checking the order placed successfully or not.
 	 * 
-	 * @param order - contains order details
+	 * @param order - contains place ordeer 
 	 * @return
 	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })
