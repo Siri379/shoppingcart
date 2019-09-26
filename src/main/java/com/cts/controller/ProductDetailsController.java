@@ -39,7 +39,7 @@ public class ProductDetailsController {
 	/**
 	 * This constructor is used to initialize ProductDetailsService.
 	 * 
-	 * @param productDetailsService
+	 * @param productDetailsService - contains call for product details service
 	 * @param orderService
 	 */
 	public ProductDetailsController(ProductDetailsService productDetailsService, OrderService orderService) {
