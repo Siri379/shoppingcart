@@ -32,8 +32,8 @@ public class BuyProductController {
 	/**
 	 * This method is used for placing the order.
 	 * 
-	 * @param user
-	 * @return String
+	 * @param user - created new user
+	 * @return String - response for the request of product order
 	 */
 	@RequestMapping(value = "/placeorder", method = RequestMethod.POST)
 	public String placeOrder(@RequestBody final User user) {
