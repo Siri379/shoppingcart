@@ -65,24 +65,19 @@
 			<artifactId>jaxb-api</artifactId>
 			<version>2.1</version>
 		</dependency>
-
-	<dependency>
-		<groupId>org.testng</groupId>
-		<artifactId>testng</artifactId>
-		<version>6.14.3</version>
-		<scope>test</scope>
-	</dependency>
-	<!--dependencies added -->
-	<dependency>
-    <groupId>com.googlecode.json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1.1</version>
-</dependency>
-		
-
-
+          	<dependency>
+        		<groupId>org.testng</groupId>
+	        	<artifactId>testng</artifactId>
+		        <version>6.14.3</version>
+	        	<scope>test</scope>
+	        </dependency>
+	        <!--dependencies added for testing ->
+	        <dependency>
+                       	<groupId>com.googlecode.json-simple</groupId>
+             		<artifactId>json-simple</artifactId>
+             		<version>1.1.1</version>
+        	</dependency>		
 	</dependencies>
-
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -111,7 +106,6 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
 	<profiles>
 		<profile>
 			<id>coverage</id>
@@ -143,3 +137,4 @@
 		</profile>
 	</profiles>
 </project>
+<!-- End of pom.xml -->
